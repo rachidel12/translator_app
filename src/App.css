@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+.app-header{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid #02728e;
+  width:400px;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  background-color: #fff;
+  position: relative;
+  left: 15%;
+}
+.header{
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}
+.app-body{
+  padding: 20px;
+  text-align: center;
+}
+.language-select{
+  height: 40px !important;
+  margin-bottom: 15px;
+  outline: none !important;
+}
+.image-header{
+  height: 80px;
+  width: 150px;
+}
+
+
+.part-result button{
+  position: absolute;
+  right:1%;
+  bottom: 30%;
+  width:10px;
+  height:25px;
+}
+.part-result button img{
+  width:20px;
+  height:20px;
+  position: relative;
+  right: 10px;
+  bottom: 300%;
+}
+
+.part-speech button:nth-child(1){
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 15%;
+  top: 1%;
+}
+.part-speech button:nth-child(2){
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 9%;
+  top: 1%;
+}
+.part-speech button:nth-child(3){
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 3%;
+  top: 1%;
+}
+.part-speech button img{
+  width:20px;
+  height:20px;
+  position: relative;
+  right:20%;
+  top: 10%;
+}
+.part-all{
+  width: 600px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: #8A1538;
+}
